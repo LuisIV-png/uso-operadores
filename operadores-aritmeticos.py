@@ -2,11 +2,13 @@
     Uso de operadores aritméticos
 """
 
-a = 10
+a = 10 + 5
 b = 3
+c = 5
 
-print("Suma:", a + b)         # 13
-print("Resta:", a - b)        # 7
+
+print("Suma:", a + b + a / b)         # 13
+print("Resta:", a - b + c )        # 7
 print("Multiplicación:", a * b) # 30
 print("División real:", a / b)  # 3.3333...
 print("División entera:", a // b) # 3
